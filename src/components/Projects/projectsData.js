@@ -8,8 +8,7 @@ export const projectData = [
     "description": null,
     "deployed_url": "https://baironpaz.com",
     "clone_url": "https://github.com/MrR3set/Auth-Friends.git",
-    "created_at": "2020-03-24T17:51:16Z",
-    "updated_at": "2020-03-24T17:51:18Z",
+    "date":"Jun 2020",
     "media":null,
     "tools":[
       "JavaScript",
