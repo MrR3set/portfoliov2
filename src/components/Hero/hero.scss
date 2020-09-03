@@ -21,11 +21,15 @@
         filter: opacity(0.2) blur(4px);
     }
     .hero{
-        // border: 1px solid blue;
         text-align: right;
         font-size: 5rem;
         letter-spacing: 1rem;
         line-height: 10rem;
+        @media (max-width:900px){
+            font-size: 3rem;
+            letter-spacing: 1rem;
+            line-height: 5rem;
+        }
         span{
             color: red;
         }
@@ -37,8 +41,7 @@
         position: absolute;
         bottom: 0;
         margin-bottom: 1rem;
-        left: 50%;
-        // height: 40px;
+        left: 45%;
         width: 32px;
         fill: white;
         z-index: 1;
