@@ -1,0 +1,51 @@
+.hero-wrapper{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 5rem;
+    position: relative;
+    .background{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        z-index: -99;
+        filter: opacity(0.2) blur(4px);
+    }
+    .hero{
+        // border: 1px solid blue;
+        text-align: right;
+        font-size: 5rem;
+        letter-spacing: 1rem;
+        line-height: 10rem;
+        span{
+            color: red;
+        }
+    }
+    svg{
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 0.5rem;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 1rem;
+        left: 50%;
+        // height: 40px;
+        width: 32px;
+        fill: white;
+        z-index: 1;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
