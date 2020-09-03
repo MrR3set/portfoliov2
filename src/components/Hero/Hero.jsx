@@ -1,7 +1,6 @@
 import React from 'react';
 import ArrowIcon from "./Arrow"
 import "./hero.scss"
-import Bounce from 'react-reveal/Bounce';
 
 function Hero() {
     return (
