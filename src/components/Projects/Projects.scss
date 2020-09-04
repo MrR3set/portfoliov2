@@ -7,26 +7,7 @@
         position: relative;
         width: 50%;
         margin: 6% auto 3%;
-        &:after{
-            content: "";
-            position: absolute;
-            margin-left: 0.5rem;
-            top: 50%;
-            left: 0;
-            height: 5px;
-            width: 200px;
-            background: red;
-        }
-        &:before{
-            content: "";
-            right: -200px;
-            position: absolute;
-            top: 50%;
-            right: 0;
-            height: 5px;
-            width: 200px;
-            background: red;
-        }
+
     }
     .featured{
         display: flex;
