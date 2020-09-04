@@ -6,7 +6,7 @@ function Featured({project}) {
 
 
     return (
-    <div className={`project-wrapper ${project.id%2!=0?"right":"left"}`}>
+    <div className={`project-wrapper ${project.id%2!==0?"right":"left"}`}>
 
         <div className="media">
             <a href={project.deployed_url} target="__blank">

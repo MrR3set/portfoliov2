@@ -1,7 +1,7 @@
 import React from 'react';
-import Projects from "./components/Projects/Projects"
 import Hero from "./components/Hero/Hero"
 import './App.scss';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
