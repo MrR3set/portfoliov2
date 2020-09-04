@@ -12,7 +12,9 @@ function Hero() {
             Bringing ideas
             <br/>to <span>life</span>
         </div>
-        <ArrowIcon/>
+        <div className="icon">
+            <ArrowIcon/>
+        </div>
     </div>
     );
 }
