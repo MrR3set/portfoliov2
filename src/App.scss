@@ -13,3 +13,16 @@ body{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
+
+nav{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    // width: 25%;
+    transition: top 0.5s;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: crimson;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
