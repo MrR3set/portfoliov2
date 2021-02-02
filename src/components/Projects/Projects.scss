@@ -1,6 +1,5 @@
 .projects-wrapper{
     margin: 1.5rem auto;
-    // min-height: 200px;
     height: 100%;
     width: 95%;
     display: flex;
@@ -61,7 +60,6 @@
                         }
                     }
                 }
-
             }
 
             .content{
@@ -72,18 +70,40 @@
                 justify-content: space-around;
                 align-items: flex-end;
                 text-align: right;
-                font-size: 1.2rem;
+                font-size: 1.6rem;
 
                 @media (max-width:1200px) {
                     width: 100%;
                 }
 
+                .header{
+                    h1{
+                        font-size: 2.4rem;
+                    }
+                    p{
+                        font-size: 1rem;
+                        color: rgba(255, 255, 255, 0.75);
+                        margin-top: -0.5rem;
+                    }
+                }
+
+
+                .description{
+                    margin: 0.5rem;
+                    font-size: 1.4rem;
+                    margin: 0;
+                }
+
                 .tools{
                     display: flex;
                     p{
-
-                        &:not(:first-child){
-                            &::before{
+                        font-size: 1.6rem;
+                        margin: 1rem 0;
+                        @media (max-width:1200px) {
+                            font-size: 1.2rem;
+                        }
+                        &:not(:last-child){
+                            &::after{
                                 content: '∙';
                                 margin: 0 0.5rem;
                             }
