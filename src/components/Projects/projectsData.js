@@ -33,4 +33,21 @@ export const projectData = [
       "PostgreSQL"
     ]
   },
+  {
+    "id": 3,
+    "title": "Muga.ly",
+    "organization":"Self project",
+    "archived": false,
+    "featured":true,
+    "description": "Despite its controvesial name, muga.ly is a URL shortener free and add free (for the time being) that I developed in my spare time to test a firestore database implementation. I designed every aspect of the applications from the UX design (clearly) to the architecture of the application. Give it a try and let me know what you think of it.",
+    "deployed_url": "https://mugaly-f1fc4.web.app/",
+    "github_url": "https://github.com/Lambda-Spotify-Song-Suggester-3",
+    "date":"Jan 2021",
+    "media":"./assets/deeptunes.png",
+    "tools":[
+      "React.JS",
+      "Firebase",
+      "Firestore"
+    ]
+  },
 ]
