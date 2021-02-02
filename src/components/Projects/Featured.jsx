@@ -4,6 +4,7 @@ import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 
 function Featured({project}) {
 
+    const toHTML = (html) => ({__html:html})
 
     return (
     <div className={`project-wrapper ${project.id%2!==0?"right":"left"}`}>
@@ -21,7 +22,7 @@ function Featured({project}) {
                 <p>{project.organization} | {project.date}</p>
             </div>
 
-            <p className="description">{project.description}</p>
+            <div className="description" dangerouslySetInnerHTML={toHTML(project.description)}/>
 
             <div className="tools">
                 {project.tools.map(tool=>{
