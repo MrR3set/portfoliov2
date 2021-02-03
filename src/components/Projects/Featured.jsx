@@ -5,7 +5,7 @@ import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 function Featured({project}) {
 
     const toHTML = (html) => ({__html:html})
-
+    
     return (
     <div className={`project-wrapper ${project.id%2!==0?"right":"left"}`}>
 
@@ -13,6 +13,7 @@ function Featured({project}) {
             <a href={project.deployed_url} target="__blank">
                 <img src={require(`${project.media}`)} alt=""/>
             </a>
+            <div className="bg-image" style={{backgroundImage:`url(${require("" + project.media)})`}}></div>
         </div>
 
         <div className="content">
